@@ -15,17 +15,10 @@ class Pet(object): # Pet is a class of the type `object`
     def getSpecies(self):
         return self.species
 
-    def __str__(self):
+    def __str__(self):      
         return "%s is a %s" %(self.name, self.species)
-
-
-boby = Pet("Boby", "Epanhol-Breton")
-print "Dog Name: %s" %boby.getName()
-print "Dog Specie: %s" %boby.getSpecies()
-
+        
+boby = Pet("Boby", "dog")
+print "Name: %s" %boby.getName()
+print "Specie: %s" %boby.getSpecies()
 print boby
-
-
-
-
-
