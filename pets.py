@@ -18,7 +18,7 @@ class Pet(object): # Pet is a class of the type `object`
     def __str__(self):      
         return "%s is a %s" %(self.name, self.species)
         
-boby = Pet("Boby", "dog")
-print "Name: %s" %boby.getName()
-print "Specie: %s" %boby.getSpecies()
-print boby
+# boby = Pet("Boby", "dog")
+# print "Name: %s" %boby.getName()
+# print "Specie: %s" %boby.getSpecies()
+# print boby
