@@ -1,0 +1,8 @@
+{
+  "test_case1.py::test_answer": true, 
+  "test_case1.py::test_func": true, 
+  "test_case2.py::test_answer": true, 
+  "test_case2.py::test_func2": true, 
+  "test_case3.py::test_needsfiles": true, 
+  "tests/test_case2.py::test_answer": true
+}
