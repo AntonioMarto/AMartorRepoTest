@@ -1,4 +1,6 @@
-class Pet(object): # Pet is a class of the type `object` 
+class Pet(object): # Pet is a class of the type `object`
+    num_of_pets = 0
+    
     def __init__(self, name, species): # Class initialization: `__init__` is method (special Python function) is called when a instance of a class is first created.
         self.name = name
         self.species = species
@@ -6,7 +8,7 @@ class Pet(object): # Pet is a class of the type `object`
         # when we run the code: `boby = Pet("Boby", "Epanhol-Breton")`, 
         # the __init__ method is called with values (boby, "Boby", and "Epanhol-Breton") 
         # for the variables (self, name, and species), respectively.
-
+        self.num_of_pets += 1
     
     # methods to get the contents of the class:
     def getName(self):
